@@ -1,0 +1,23 @@
+html, body, div, canvas { 
+    margin: 0;
+    padding: 0;
+}	/* removes margin around background canvas */
+
+body {
+	background: url("space.png");
+	transition-duration: 1s;
+	text-align: center;
+	overflow: hidden;
+	user-select: none;
+}
+
+#body-container {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#paint-canvas {
+	background-color: transparent;
+}
+
