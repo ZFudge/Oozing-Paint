@@ -4,7 +4,6 @@ html, body, div, canvas {
 }	/* removes margin around background canvas */
 
 body {
-	background: url("space.png");
 	transition-duration: 1s;
 	text-align: center;
 	overflow: hidden;
@@ -16,8 +15,3 @@ body {
 	width: 100%;
 	position: absolute;
 }
-
-#paint-canvas {
-	background-color: transparent;
-}
-
